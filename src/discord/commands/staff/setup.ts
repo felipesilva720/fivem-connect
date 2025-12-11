@@ -48,7 +48,7 @@ createCommand({
           .then(async (message) => {
             createLoopInterval({
               array: [],
-              time: toMs(1, "minutes"),
+              time: toMs(3, "minutes"),
               async run() {
                 const data = await getServerData();
 
